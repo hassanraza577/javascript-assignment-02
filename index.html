@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment 02</title>
+</head>
+<body>
+    <script>
+        let price = parseInt(prompt("Enter Chicken Price In Per KG"));
+        let quantity = parseInt(prompt("Enter Quantity Of Chicken In Gram"));
+        let kgtogram = price/1000;
+        let order = quantity * kgtogram;
+        document.write("You Ordered ",quantity," Gram and Price Is ",kgtogram," Per Gram <br>","Your Bill Is ",order);
+    </script>
+</body>
+</html>
